@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: burlywood;
+  }
+  
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  a {
+      flex: 1;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 800;
+  }
+
+  a:hover {
+      color: purple;
+  }
+
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profile {
+  width: 60%;
+  
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/*contact page  */
+
+#section {
+  margin-top: 5em;
+}
+
+#contact {
+  width: 80%;
+  margin: auto;
+}
+
+input {
+  width: 60%;
+  margin: 10px;
+  height: 40px;
+ border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+input:hover {
+  background-color: aqua;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  background-color: chartreuse;
+}
+
+button:hover {
+  color: #fff;
+  background-color: brown;
+}
+
+/* register page */ 
+
+label {
+  font-size: 20px;
+  
+}
+
+/*calculator */
+
+td {
+  border-radius: 50%;
+  border: 1px solid black;
+  
+ 
+}
